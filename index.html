@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI CV Analyzer & Job Finder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>AI-Powered CV Analyzer & Job Finder</h1>
+    <p>Improve your CV and find the best job matches using AI!</p>
+  </header>
+
+  <main>
+    <section class="upload-section">
+      <h2>Upload Your CV</h2>
+      <form id="uploadForm">
+        <input type="file" id="cvFile" accept=".pdf,.doc,.docx" required />
+        <button type="submit">Upload CV</button>
+      </form>
+    </section>
+
+    <section class="manual-section">
+      <h2>Or Fill Your Details Manually</h2>
+      <form id="detailsForm">
+        <input type="text" placeholder="Full Name" required />
+        <input type="email" placeholder="Email Address" required />
+        <textarea placeholder="Skills (e.g. HTML, CSS, Python)" required></textarea>
+        <textarea placeholder="Experience / Education"></textarea>
+        <button type="submit">Submit Details</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 AI CV Analyzer Project</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
